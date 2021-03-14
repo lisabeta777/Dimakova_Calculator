@@ -2,9 +2,7 @@ package com.company;
 
 public class Minus extends Operation{
 
-    static void  minus(int a, int b) {
-        int sum;
-        sum = a - b;
-        System.out.println(sum);
+    public static double execute(double a, int b) {
+       return (a - b);
     }
 }
